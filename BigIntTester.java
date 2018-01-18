@@ -13,7 +13,7 @@ public class BigIntTester
         System.out.print   ("Please enter a standard (positive) integer: ");
         int n = kboard.nextInt();
         BigInt bigInt1 = new BigInt(n);
-        System.out.println ("Converted to a BigInt: " + bigInt1);
+        System.out.println ("Converted to a BigInt:                      " + bigInt1);
         System.out.println ("\n\n");
         
         kboard.nextLine();    // finish the end of the previous input
@@ -51,8 +51,6 @@ public class BigIntTester
             System.out.println (i + "! = " + n + "\t\t" + bigInt4);
         }
         System.out.println ("\n\n");
-        
-        
         
         kboard.close();
     }
